@@ -17,6 +17,6 @@ func main() {
 	fmt.Println("JR: ", authors["jr"])
 
 	// check when a key is present in the map
-	a, ok := authors["pc"]
+	a, ok := authors["ma"]
 	fmt.Printf("a=%v ok=%v\n", a, ok)
 }

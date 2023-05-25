@@ -14,7 +14,7 @@ func (p person) fullName() string {
 
 // define author and embed person
 type author struct {
-	person
+	person person
 	penName string
 }
 
